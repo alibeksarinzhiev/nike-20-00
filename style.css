@@ -1,10 +1,357 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    outline: none;
+    border: none;
 }
-.container{
-    width: 1200px;
+
+header{
+    background: #F5F5F5
+}
+.header__top {
+    padding: 9px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.djordan__svg {
+}
+.header__top__p__div {
+    padding: 5px 10px;
+    background: #FFFFFF;
+    margin-left: 150px;
+}
+
+.header__top__p {
+    font:500 13px/26px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+}
+.header__top__ul {
+    display: flex;
+    gap: 32px;
+}
+.header__top__ul__li {
+    font:500 11px/14px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+    padding-right:15px ;
+    border-right:1px solid black ;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 48px;
+    background: #FFFFFF;
+    
+}
+.nike__svg {
+}
+.header__center__ul {
+    display: flex;
+    gap: 23px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.header__center__ul__li {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__ul__li:nth-child(6) {
+    font:500 16px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__icons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.header__center__input {
+    padding: 11px 48px;
+    border-radius: 50px;
+    background: #F5F5F5
+}
+.header__bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.header__bottom__p__one {
+    font:500 16px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__bottom__p__two {
+    font:400 11px/24px  'Helvetica Neue';
+    color: black;
+}
+/* main */
+/* sec-one */
+
+/* sec-2 */
+.container {
+    max-width: 1260px;
     margin: 0 auto;
+}
+.sec__two__des {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 48px;
+}
+.sec__two__p__one {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+    margin-bottom: 4px;
+}
+.sec__two__h2 {
+    font:500 56px/60px  'Helvetica Neue';
+    color: black;
+    margin-bottom: 24px;
+}
+.sec__two__p__two {
+    font:400 15px/24px  'Helvetica Neue';
+    color: black;
+    margin-bottom: 30px;
+}
+.sec__two__btns {
+    display: flex;
+    gap: 6px;
+}
+.sec__two__button {
+    padding: 7px 21px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* sec-3 */
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+.section__thre__descr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.section__thre__descr__p {
+    font:500 22px/28px'Helvetica Neue';
+    color: black;
+}
+.sec__thre__btns {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.sec__thre__btns__p {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.section__thre__btn__prew {
+    padding: 17px 20px;
+    background: #F5F5F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.section__thre__btn__next {
+    padding: 17px 20px;
+    background: #F5F5F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.sec__thre__cards {
+    display: flex;
+    gap: 12px;
+}
+.sec__thre__card {
+}
+.sec__thre__cards__img {
+    margin-bottom: 21px;
+}
+.sec__thre__card__descr {
+    display: flex;
+    justify-content: space-between;
+}
+.sec__thre__card__descr__h4 {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.sec__thre__card__descr__p {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.sec__thre__card__p {
+    font:400 15px/24px  'Helvetica Neue';
+    color: #757575;
+}
+/* sec-4 */
+.section__four__p {
+    font:500 23px/28px  'Helvetica Neue';
+    color: black;
+    margin-top: 114px;
+}
+.mean__run{
+  margin-top: 25px;
+} 
+/* sec6 */
+.section__six__box{
+    display: flex;
+    gap: 66px;
+}
+.section__six__p{
+    font:500 22px/28px'Helvetica Neue';
+    color: black;
+    margin-top: 91px;
+}
+.sec__six__btns{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-bottom: 39px;
+}
+.left__cards {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec__six__card__btn{
+    display: flex;
+    gap: 15px;
+}
+
+.section__six__card__p {
+    font:400 15px/24px  'Helvetica Neue';
+    color: #757575;
+}
+/* sec-7 */
+.section__seven__p{
+    font:500 22px/28px'Helvetica Neue';
+    color: black;
+    margin-top: 138px ; 
+    margin-bottom: 25px;
+}
+/* sec9 */
+.section__nine__p {
+    font:500 22px/28px'Helvetica Neue';
+    color: black;
+    margin-top: 84px;
+    margin-bottom: 25px;
+}
+.sec__nine__cards {
+    display: flex;
+    gap: 12px;
+}
+.sec__nine__card {
+    position: relative;
+}
+.sec-9-mean.png {
+}
+.section__nine__btn {
+   padding: 7px 21px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* sec-10 */
+.uls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__ten__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    cursor: pointer;
+    margin-top: 87px;
+}
+.section__ten__li__act {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.section__ten__li {
+    font:500 15px/24px  'Helvetica Neue';
+    color: #757575;
+}
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 72px;
+}
+.container__footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.uls {
+    display: flex;
+    gap: 180px;
+}
+.footer__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    cursor: pointer;
+    margin-top: 87px;
+}
+.footer__ul:nth-child(2){
+    padding-top: 65px;
+}
+
+.footer__li {
+    font:400 10px/33px  'Helvetica Neue';
+    color: #F5F5F5;
+}
+
+.footer__li__a {
+    font:400 11px/28px  'Helvetica Neue';
+    color: #7E7E7E
+}
+.footer__icons {
+    display: flex;
+    gap: 15px;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer__bottom__icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+}
+.vec__svg {
+}
+.footer__icon__p {
+    font:400 12px/12px  'Helvetica Neue';
+    color: #F5F5F5;
+}
+.footer__icon__p__two {
+    font:400 11px/12px  'Helvetica Neue';
+    color: #7E7E7E;
+
+}
+.footer__bottom__ul {
+    display: flex;
+    gap: 27px;
+}
+.footer__bottom__ul__li {
+    font:400 12px/28px  'Helvetica Neue';
+    color: #7E7E7E;
 }
