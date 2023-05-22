@@ -1,0 +1,12 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "image": "./image/img1.png",
+      "name":"Nike Air Max Pulse",
+      "price": "13 995",
+      "category": "Women's Shoes"
+    }
+
+  ]
+}

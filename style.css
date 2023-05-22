@@ -97,6 +97,10 @@ header{
 .container {
     max-width: 1260px;
     margin: 0 auto;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
 }
 .sec__two__des {
     display: flex;
@@ -174,9 +178,11 @@ header{
     gap: 12px;
 }
 .sec__thre__card {
+    width: 390px;
 }
 .sec__thre__cards__img {
     margin-bottom: 21px;
+    width: 100%;
 }
 .sec__thre__card__descr {
     display: flex;
@@ -202,7 +208,7 @@ header{
 }
 .mean__run{
   margin-top: 25px;
-} 
+}
 /* sec6 */
 .section__six__box{
     display: flex;
@@ -254,8 +260,13 @@ header{
 }
 .sec__nine__card {
     position: relative;
+    width: 390px;
+}
+.sec__nine__card img{
+    width: 100%;
 }
 .sec-9-mean.png {
+
 }
 .section__nine__btn {
    padding: 7px 21px;

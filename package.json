@@ -1,0 +1,23 @@
+{
+  "name": "nikejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibeksarinzhiev/nike-20-00.git"
+  },
+  "author": "alibek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alibeksarinzhiev/nike-20-00/issues"
+  },
+  "homepage": "https://github.com/alibeksarinzhiev/nike-20-00#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
