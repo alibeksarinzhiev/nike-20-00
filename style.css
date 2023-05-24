@@ -219,6 +219,13 @@ header{
     color: black;
     margin-top: 91px;
 }
+.section__six__card{
+    width: 250px;
+}
+.section__six__card img{
+    width: 100%;
+}  
+
 .sec__six__btns{
     display: flex;
     align-items: center;
