@@ -19,7 +19,7 @@ fetch('http://localhost:3000/shoes')
 }))
 let men =document.querySelector('.header__center__ul__li__men')
 men.addEventListener('click',()=>{
-    box.innerHTML+=''
+    box.innerHTML=''
     fetch('http://localhost:3000/shoes')
     .then((res)=>res.json())
     .then((json)=>json.filter((el)=>{
