@@ -49,3 +49,11 @@
     gap: 27px;
     padding-top: 11px;
 }
+.size__btn{
+    padding: 19px 148px;
+    background: #111111;
+        border-radius: 30px;
+        color: aliceblue;
+
+
+}
