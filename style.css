@@ -6,10 +6,14 @@
     list-style-type: none;
     outline: none;
     border: none;
+    text-decoration: none;
 }
 
 header{
     background: #F5F5F5
+}
+a{
+    color: none;
 }
 .header__top {
     padding: 9px 50px;

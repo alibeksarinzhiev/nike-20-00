@@ -137,3 +137,14 @@ body{
 }
 .con__ul__tops {
 }
+.card__btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #94bbe9;
+    cursor: pointer;
+    margin-top: 15px;
+}
+a{
+    color: none;
+}

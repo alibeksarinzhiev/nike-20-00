@@ -1,0 +1,327 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    border: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.header__top {
+    padding: 9px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.djordan__svg {
+}
+.header__top__p__div {
+    padding: 5px 10px;
+    background: #FFFFFF;
+    margin-left: 150px;
+}
+
+.header__top__p {
+    font:500 13px/26px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+}
+.header__top__ul {
+    display: flex;
+    gap: 32px;
+}
+.header__top__ul__li {
+    font:500 11px/14px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+    padding-right:15px ;
+    border-right:1px solid black ;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 48px;
+    background: #FFFFFF;
+    
+}
+.nike__svg {
+}
+.header__center__ul {
+    display: flex;
+    gap: 23px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.header__center__ul__li {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__ul__li__men{
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;  
+}
+.header__center__ul__li__women{
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;  
+}
+.header__center__ul__li:nth-child(6) {
+    font:500 16px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__icons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.header__center__input {
+    padding: 11px 48px;
+    border-radius: 50px;
+    background: #F5F5F5
+}
+
+/* sec-1 */
+.section__one .container{
+    display: flex;
+    gap: 24px;
+}
+.box__cards {
+    margin-top:60px;
+}
+.box__card__title {
+    width: 600px;
+    height: 60px;
+    background: #F5F5F5;
+}
+.box__card__title__p__one {
+    font: 500 13px/14px 'Inter';
+    color: black;
+    padding: 14px 20px 0;
+}
+.box__card__title__p {
+    font: 500 13px/14px 'Inter';
+    color: black;
+    padding-top: 10px;
+}
+.box__card__title__two {
+    display: flex;
+    gap: 17px;
+}
+.box__card__title__p__two {
+    font: 400 11px/24px 'Inter';
+    color: black;
+    margin: 4px 20px;
+}
+.bag__p {
+    font: 500 22px/33px 'Inter';
+    color: black;
+    margin-top:15px;
+}
+.box__card {
+    width: 717px;
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #757575;
+    padding-bottom: 44px;
+     margin-bottom: 20px;
+}
+.card__prise{
+    font: 400 15px/28px 'Inter';
+    color: black;
+    margin-left: 130px;
+}
+.mean__sport__img {
+    width: 150px;
+    height: 150px;
+}
+.box__card__desc {
+    display: flex;
+    flex-direction: column;
+}
+.box__card__desc__h2 {
+    font: 500 15px/18px 'Inter';
+    color: black;
+}
+.box__card__desc__p {
+    font: 400 15px/18px 'Inter';
+    color: #757575;
+}
+.box__card__size {
+    display: flex;
+    gap: 49px;
+}
+.box__card__size__p {
+    font: 400 15px/18px 'Inter';
+    color: #757575;
+    margin-top: 6px;
+}
+.box__card__icons {
+    display: flex;
+    gap: 21px;
+    margin-top: 31px;
+    cursor: pointer;
+}
+.box__rigth {
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+}
+.box__rigth__p {
+    font: 500 21px/33px 'Inter';
+    color: black;
+}
+.box__rigth__des {
+    display: flex;
+    gap: 88px;
+}
+.box__rigth__des__p {
+    font: 400 15px/28px 'Inter';
+    color: black;
+}
+.box__rigth__btn {
+    padding: 18px 100px;
+    background-color: black;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-top: 49px;
+    cursor: pointer;
+}
+/* se2 */
+
+.container {
+}
+.sec__two__title {
+    margin-top: 27px;
+}
+.sec__two__title__h2 {
+    font: 500 21px/33px 'Inter';
+    color: black;
+    margin-bottom: 9px;
+}
+.sec__two__title__p {
+    font: 400 15px/28px 'Inter';
+    color: black;
+}
+.sec__two__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.sec__two__btns__p {
+    font: 500 19px/23px 'Inter';
+    color: black;
+}
+.sec__thre__btns {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section__thre__btn__prew {
+    padding: 17px 20px;
+    background: #F5F5F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.section__thre__btn__next {
+    padding: 17px 20px;
+    background: #F5F5F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.card{
+    width: 360px;
+}
+.card img{
+    width: 100%;
+}
+.title{
+    font: 500 15px/24px 'Inter';
+    color: black;
+}
+.category__p{
+    font: 500 15px/24px 'Inter';
+    color: #757575;
+    margin-bottom: 8px;
+}
+.price{
+    font: 500 15px/24px 'Inter';
+    color: black; 
+}
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 72px;
+}
+.container__footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.uls {
+    display: flex;
+    gap: 180px;
+}
+.footer__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    cursor: pointer;
+    margin-top: 87px;
+}
+.footer__ul:nth-child(2){
+    padding-top: -15px;
+}
+
+.footer__li {
+    font:400 10px/33px  'Helvetica Neue';
+    color: #F5F5F5;
+}
+
+.footer__li__a {
+    font:400 11px/28px  'Helvetica Neue';
+    color: #7E7E7E
+}
+.footer__icons {
+    display: flex;
+    gap: 15px;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer__bottom__icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+}
+.vec__svg {
+}
+.footer__icon__p {
+    font:400 12px/12px  'Helvetica Neue';
+    color: #F5F5F5;
+}
+.footer__icon__p__two {
+    font:400 11px/12px  'Helvetica Neue';
+    color: #7E7E7E;
+
+}
+.footer__bottom__ul {
+    display: flex;
+    gap: 27px;
+}
+.footer__bottom__ul__li {
+    font:400 12px/28px  'Helvetica Neue';
+    color: #7E7E7E;
+}
