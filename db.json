@@ -2,7 +2,7 @@
   "shoes": [
     {
       "id": 1,
-      "image": "./image/nike-shoes-1.png",
+      "image": ["./image/nike-shoes-1.png","./image/nike-shoes-1.png","./image/nike-shoes-1.png"],
       "name": "Just In",
       "title": "Nike Air Force 1 Mid '07",
       "category": "Men's Shoes",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "./image/nike-shoes-2.png",
+      "image": ["./image/nike-shoes-2.png","./image/nike-shoes-2.png","./image/nike-shoes-2.png"],
       "name": "Just In",
       "title": "Nike Court Vision Low Next Nature",
       "category": "Men's Shoes",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "image": "./image/nike-shoes-3.png",
+      "image": ["./image/nike-shoes-3.png","./image/nike-shoes-3.png","./image/nike-shoes-3.png"],
       "name": "Just In",
       "title": "Nike Air Force 1 PLT.AF.ORM",
       "category": "Women's Shoes",
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "image": "./image/nike-shoes-4.png",
+      "image": ["./image/nike-shoes-4.png","./image/nike-shoes-4.png","./image/nike-shoes-4.png"],
       "name": "Just In",
       "title": "Nike Air Force 1 React",
       "category": "Men's Shoes",
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "image": "./image/nike-shoes-5.png",
+      "image": [ "./image/nike-shoes-5.png", "./image/nike-shoes-5.png", "./image/nike-shoes-5.png"],
       "name": "Promo Exclusion",
       "title": "Air Jordan 1 Elevate Low",
       "category": "Women's Shoes",
@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "image": "./image/nike-shoes-6.png",
+      "image": ["./image/nike-shoes-6.png","./image/nike-shoes-6.png","./image/nike-shoes-6.png"],
       "name": "Promo Exclusion",
       "title": "Nike Dunk Low Retro SE",
       "category": "Men's Shoes",
@@ -72,7 +72,7 @@
     },
     {
       "id": 8,
-      "image": "./image/men-t-sirts.png",
+      "image": ["./image/men-t-sirts.png","./image/men-t-sirts.png","./image/men-t-sirts.png"],
       "name": "Sustainable Materials",
       "title": "Nike Dri-FIT UV Hyverse",
       "category": "Men's Short-Sleeve Graphic Fitness Top",
@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "image": "./image/nike-shoes-7.png",
+      "image": ["./image/nike-shoes-7.png","./image/nike-shoes-7.png","./image/nike-shoes-7.png"],
       "name": "Just In",
       "title": "Nike Court Vision Low",
       "category": "Men's Shoes",
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "image": "./image/men-t-sirts-2.png",
+      "image": ["./image/men-t-sirts-2.png","./image/men-t-sirts-2.png","./image/men-t-sirts-2.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Ready",
       "category": "Men's Short-Sleeve Fitness Top",
@@ -102,7 +102,7 @@
     },
     {
       "id": 11,
-      "image": "./image/women-tops.png",
+      "image": ["./image/women-tops.png","./image/women-tops.png","./image/women-tops.png"],
       "name": "Just In",
       "title": "Nike One Leak Protection: Period",
       "category": "Women's Mid-Rise 18cm (approx.) Biker Shorts",
@@ -112,7 +112,7 @@
     },
     {
       "id": 12,
-      "image": "./image/nike-shoes-8.png",
+      "image": ["./image/nike-shoes-8.png","./image/nike-shoes-8.png","./image/nike-shoes-8.png"],
       "name": "Just In",
       "title": "Nike Air Force 1 LV8 3",
       "category": "Older Kids' Shoe",
@@ -122,7 +122,7 @@
     },
     {
       "id": 13,
-      "image": "./image/nike-shoes-9.png",
+      "image": ["./image/nike-shoes-9.png","./image/nike-shoes-9.png","./image/nike-shoes-9.png"],
       "name": "Just In",
       "title": "Nike Blazer Low Platform",
       "category": "Women's Shoes",
@@ -132,7 +132,7 @@
     },
     {
       "id": 14,
-      "image": "./image/nike-shoes-10.png",
+      "image": ["./image/nike-shoes-10.png","./image/nike-shoes-10.png","./image/nike-shoes-10.png"],
       "name": "Just In",
       "title": "Nike Air Force 1 '07",
       "category": "Women's Shoes",
@@ -142,7 +142,7 @@
     },
     {
       "id": 15,
-      "image": "./image/men-t-sirts-3.png",
+      "image": ["./image/men-t-sirts-3.png","./image/men-t-sirts-3.png","./image/men-t-sirts-3.png"],
       "name": "Just In",
       "title": "Nike Pro Dri-FIT",
       "category": "Men's Tight-Fit Sleeveless Top",
@@ -152,7 +152,7 @@
     },
     {
       "id": 16,
-      "image": "./image/women-tops-2.png",
+      "image": ["./image/women-tops-2.png","./image/women-tops-2.png","./image/women-tops-2.png"],
       "name": "Just In",
       "title": "Nike Alate All U",
       "category": "Women's Light-Support Lightly Lined ",
@@ -162,7 +162,7 @@
     },
     {
       "id": 17,
-      "image": "./image/men-t-sirts-4.png",
+      "image":[ "./image/men-t-sirts-4.png", "./image/men-t-sirts-4.png", "./image/men-t-sirts-4.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Run Division Rise 365",
       "category": "Men's Running Tank",
@@ -172,7 +172,7 @@
     },
     {
       "id": 18,
-      "image": "./image/women-tops-3.png",
+      "image":[ "./image/women-tops-3.png", "./image/women-tops-3.png", "./image/women-tops-3.png"],
       "name": "Just In",
       "title": "Nike Swoosh",
       "category": "Women's Medium-support Padded Sports Bra Tank",
@@ -182,7 +182,7 @@
     },
     {
       "id": 19,
-      "image": "./image/men-t-sirts-5.png",
+      "image": ["./image/men-t-sirts-5.png","./image/men-t-sirts-5.png","./image/men-t-sirts-5.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT ADV TechKnit Ultra",
       "category": "Men's Short-Sleeve Running Top",
@@ -192,7 +192,7 @@
     },
     {
       "id": 20,
-      "image": "./image/women-sportswear.png",
+      "image": ["./image/women-sportswear.png","./image/women-sportswear.png","./image/women-sportswear.png"],
       "name": "Just In",
       "title": "Serena Williams Design Crew",
       "category": "Women's Full-zip Top",
@@ -202,7 +202,7 @@
     },
     {
       "id": 21,
-      "image": "./image/men-shorts.png",
+      "image": ["./image/men-shorts.png","./image/men-shorts.png","./image/men-shorts.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Totality",
       "category": "Men's 18cm (approx.) Unlined Shorts",
@@ -212,7 +212,7 @@
     },
     {
       "id": 22,
-      "image": "./image/men-shorts-2.png",
+      "image": ["./image/men-shorts-2.png","./image/men-shorts-2.png","./image/men-shorts-2.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Totality",
       "category": "Men's 23cm (approx.) Unlined Shorts",
@@ -222,7 +222,7 @@
     },
     {
       "id": 23,
-      "image": "./image/men-shorts-3.png",
+      "image": ["./image/men-shorts-3.png","./image/men-shorts-3.png","./image/men-shorts-3.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Run Division Challenger",
       "category": "Men's 13cm (approx.) Brief-Lined Running Shorts",
@@ -232,7 +232,7 @@
     },
     {
       "id": 23,
-      "image": "./image/men-t-sirts-6.png",
+      "image": ["./image/men-t-sirts-6.png","./image/men-t-sirts-6.png","./image/men-t-sirts-6.png"],
       "name": "Just In",
       "title": "Nike Dri-FIT Run Division Challenger",
       "category": "Men's 13cm (approx.) Brief-Lined Running Shorts",
