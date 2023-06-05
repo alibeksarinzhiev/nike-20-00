@@ -50,7 +50,9 @@ men.addEventListener('click',()=>{
     }).forEach(el=> {
         box.innerHTML+=`
     <div class="card">
-    <img src="../../${el.image}" alt="">
+    <a href="http://127.0.0.1:5500/pages/singleProduct/single.html#${el.id}">
+    <img src="../../${el.image[0]}" alt="">
+    </a>
     <h1 class="name__h1">${el.name}</h1>
     <p class="title">${el.title}</p>
     <p class="category__p">${el.category}</p>
