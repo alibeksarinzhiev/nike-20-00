@@ -1,31 +1,31 @@
 
-let post = (el)=>{
-    fetch('http://localhost:3000/basket', {
-        method: 'POST',
-        headers: {
-           'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            "id": el.id,
-            "image": el.image,
-            "name": el.name,
-            "title": el.title,
-            "category": el.category,
-            "gender": el.gender,
-            "color": el.color,
-            "price": el.price
-        })
-    })
+
+
+let cart = []
+
+let addCart = (el)=>{
+
+
+
 }
 
 
+
+let bakseticon = document.querySelector('.bag__img')
+let popup = document.querySelector('.popup__basket')
+bakseticon.addEventListener('click',()=>{
+    popup.classList.toggle('active')
+})
+console.log(bakseticon)
 let box = document.querySelector('.box')
+let men =document.querySelector('.header__center__ul__li__men')
 fetch('http://localhost:3000/shoes')
 .then((res)=>res.json())
 .then((json)=>json.forEach((el)=>{
+
     box.innerHTML+=`
     <div class="card">
-    <a href="http://127.0.0.1:5500/pages/singleProduct/single.html#${el.id}">
+    <a href="../../pages/singleProduct/single.html#${el.id}">
     <img src="../../${el.image[0]}" alt="">
     </a>
     <h1 class="name__h1">${el.name}</h1>
@@ -34,15 +34,17 @@ fetch('http://localhost:3000/shoes')
     <p class="category__p">${el.gender}</p>
     <p class="color__p">${el.color}</p>
     <p class="price">${el.price}</p>
-    <button type="button" onClick="${()=>post(el)}" class="card__btn">Корзину</button>
+    <button type="button" onclick="addCart(${el.name})" class="card__btn">Корзину</button>
+
 
 </div>
     `
+
 }))
 
-let men =document.querySelector('.header__center__ul__li__men')
 men.addEventListener('click',()=>{
-    box.innerHTML=''
+    location.reload()
+    box.innerHTML=' '
     fetch('http://localhost:3000/shoes')
     .then((res)=>res.json())
     .then((json)=>json.filter((el)=>{
@@ -50,7 +52,7 @@ men.addEventListener('click',()=>{
     }).forEach(el=> {
         box.innerHTML+=`
     <div class="card">
-    <a href="http://127.0.0.1:5500/pages/singleProduct/single.html#${el.id}">
+    <a href="../../pages/singleProduct/single.html#${el.id}">
     <img src="../../${el.image[0]}" alt="">
     </a>
     <h1 class="name__h1">${el.name}</h1>
@@ -59,7 +61,7 @@ men.addEventListener('click',()=>{
     <p class="category__p">${el.gender}</p>
     <p class="color__p">${el.color}</p>
     <p class="price">${el.price}</p>
-    <button > ${Корзину}</button>
+    <button type="button" onclick="()=>addCart(el)" class="card__btn">Корзину</button>
 
      </div>      `
         console.log(box)
@@ -75,11 +77,10 @@ women.addEventListener('click',()=>{
     .then((json)=>json.filter((el)=>{
         return el.gender === "Women"
     }).forEach(el=> {
-    
         box.innerHTML+=`
     <div class="card">
-    <a href="http://127.0.0.1:5500/pages/singleProduct/single.html#${el.id}">
-    <img src="../../${el.image}" alt="">
+    <a href="../../pages/singleProduct/single.html#${el.id}">
+    <img src="../../${el.image[0]}" alt="">
     </a>
     
     <h1 class="name__h1">${el.name}</h1>
@@ -88,6 +89,7 @@ women.addEventListener('click',()=>{
     <p class="category__p">${el.gender}</p>
     <p class="color__p">${el.color}</p>
     <p class="price">${el.price}</p>
+    <button type="button" onclick="()=>addCart(el)" class="card__btn">Корзину</button>
 
      </div>      `
        

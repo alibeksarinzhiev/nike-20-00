@@ -148,3 +148,14 @@ body{
 a{
     color: none;
 }
+.sec1{
+    position: relative;
+}
+.popup__basket.active{
+    height: 80vh;
+    position: fixed;
+    width: 700px;
+    right: 0;
+    background: khaki;
+    transition: 1s;
+}

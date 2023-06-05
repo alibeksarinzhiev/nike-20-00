@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "image": "./image/wonem-t-sirts.png",
+      "image": ["./image/wonem-t-sirts.png","./image/wonem-t-sirts.png","./image/wonem-t-sirts.png"],
       "name": "Just In",
       "title": "Nike Standard Issue",
       "category": "Women's Basketball Jersey",
