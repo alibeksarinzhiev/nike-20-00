@@ -12,11 +12,12 @@ let addCart = (el)=>{
 
 
 let bakseticon = document.querySelector('.bag__img')
+
 let popup = document.querySelector('.popup__basket')
 bakseticon.addEventListener('click',()=>{
     popup.classList.toggle('active')
 })
-console.log(bakseticon)
+
 let box = document.querySelector('.box')
 let men =document.querySelector('.header__center__ul__li__men')
 fetch('http://localhost:3000/shoes')
@@ -34,13 +35,52 @@ fetch('http://localhost:3000/shoes')
     <p class="category__p">${el.gender}</p>
     <p class="color__p">${el.color}</p>
     <p class="price">${el.price}</p>
-    <button type="button" onclick="addCart(${el.name})" class="card__btn">Корзину</button>
+    ${!cart.filter((item) => item.id === el.id).length ? `<button type="button" data-id="${el.id}" class="card__btn">Корзину</button>`:'уже добавлен'}
+   
 
 
 </div>
     `
 
-}))
+let btn = document.querySelectorAll('.card__btn')
+Array.from(btn).forEach((item)=>{
+item.addEventListener('click',()=>{
+    let num = ''
+    num.innerHTML=''
+    popup.innerHTML = ''
+    
+    cart=[...cart,json.find((elemt)=>elemt.id === +item.dataset.id)]
+
+    
+    cart.forEach((el) => {
+        
+        
+        
+        
+        popup.innerHTML+= `
+        <div>
+    <h2>${el.name}</h2>
+    <img src="../../${el.image[0]}">
+    </div>
+    `
+    })
+    
+    num = cart.length
+    
+    
+    cart.length>0?bakseticon.append(num):''
+}
+
+)
+    
+})
+}
+
+    
+)
+
+)
+
 
 men.addEventListener('click',()=>{
     location.reload()

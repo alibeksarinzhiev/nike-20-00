@@ -152,10 +152,15 @@ a{
     position: relative;
 }
 .popup__basket.active{
-    height: 80vh;
-    position: fixed;
+overflow: scroll;
+    position: absolute;
     width: 700px;
-    right: 0;
+    right: 20px;
     background: khaki;
     transition: 1s;
+    display: block;
+}
+.popup__basket{
+    display: none;
+    overflow: scroll;
 }
