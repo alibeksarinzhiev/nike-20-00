@@ -29,6 +29,8 @@ fetch('http://localhost:3000/shoes/2')
                 </div>
                 <button class ="size__btn1">Add to Bag</button>
                 <button class ="size__btn2">Favourite</button>
+                <p class = "single__text">Layer on style with the Air Max 97. The cracked leather and soft suede update the iconic design while the original look (inspired by Japanese bullet trains and water droplets) still takes centre stage. Easy-to-style colours let you hit the streets quickly.</p>
+                <p>Colour Shown: Flat Pewter/<br>Light Bone/Black/White
 
             </div>
     `
