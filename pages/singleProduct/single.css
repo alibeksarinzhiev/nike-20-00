@@ -11,7 +11,8 @@
 .single .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+
 }
 .first__ul li{
     width: 59px;
@@ -56,4 +57,18 @@
         color: aliceblue;
 
 
+}
+.nike__right{
+    width: 35%;
+}
+.nike__img__left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+
+}
+.nike__img__left img{
+    width: 45%;
 }
