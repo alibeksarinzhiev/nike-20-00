@@ -126,12 +126,12 @@ body{
 }
 
 .con__title__p {
+    margin-left: 10px;
 }
 .con__ul {
     display: flex;
     flex-direction: column;
-    left: 10%;
-    position: absolute;
+    margin-left: 10px;
 }
 .con__ul__shoes {
 }
@@ -146,21 +146,29 @@ body{
     margin-top: 15px;
 }
 a{
-    color: none;
+    color: black;
 }
 .sec1{
-    position: relative;
+    display: flex;
+    gap: 20px;
 }
 .popup__basket.active{
-overflow: scroll;
+  overflow: scroll;
     position: absolute;
     width: 700px;
     right: 20px;
-    background: khaki;
+    background: #e4e8ed;
     transition: 1s;
     display: block;
 }
 .popup__basket{
     display: none;
     overflow: scroll;
+}
+.pop{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin: 30px;
 }

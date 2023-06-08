@@ -58,9 +58,14 @@ item.addEventListener('click',()=>{
         
         
         popup.innerHTML+= `
-        <div>
-    <h2>${el.name}</h2>
+        <div class="pop">
     <img src="../../${el.image[0]}">
+    <h1 class="name__h1">${el.name}</h1>
+    <p class="title">${el.title}</p>
+    <p class="category__p">${el.category}</p>
+    <p class="category__p">${el.gender}</p>
+    <p class="color__p">${el.color}</p>
+    <p class="price">${el.price}</p>
     </div>
     `
     })
