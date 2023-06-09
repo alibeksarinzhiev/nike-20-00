@@ -7,9 +7,7 @@
     outline: none;
     border: none;
 }
-body{
-    position: relative;
-}
+
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -153,7 +151,8 @@ a{
     gap: 20px;
 }
 .popup__basket.active{
-  overflow: scroll;
+  /* overflow: scroll;
+  scroll-behavior: smooth;  */
     position: absolute;
     width: 700px;
     right: 20px;
@@ -163,7 +162,8 @@ a{
 }
 .popup__basket{
     display: none;
-    overflow: scroll;
+   
+  
 }
 .pop{
     width: 330px;

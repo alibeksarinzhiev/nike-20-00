@@ -44,9 +44,10 @@ db1.then(res=>res.json())
     
     
                     </div>
+                    <div class="size__btns"
                     <button class ="size__btn1">Add to Bag</button>
                     <button class ="size__btn2">Favourite</button>
-     
+                    </div>
                 </div>`
     })
 

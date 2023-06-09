@@ -3,6 +3,85 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.header__top {
+    padding: 9px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.djordan__svg {
+}
+.header__top__p__div {
+    padding: 5px 10px;
+    background: #F5F5F5;
+    margin-left: 150px;
+}
+
+.header__top__p {
+    font:500 13px/26px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+}
+.header__top__ul {
+    display: flex;
+    gap: 32px;
+}
+.header__top__ul__li {
+    font:500 11px/14px  'Helvetica Neue';
+    color: black;
+    cursor: pointer;
+    padding-right:15px ;
+    border-right:1px solid black ;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 48px;
+    background: #F5F5F5
+    
+}
+.nike__svg {
+}
+.header__center__ul {
+    display: flex;
+    gap: 23px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.header__center__ul__li {
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__ul__li__men{
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;  
+}
+.header__center__ul__li__women{
+    font:500 15px/24px  'Helvetica Neue';
+    color: black;  
+}
+.header__center__ul__li:nth-child(6) {
+    font:500 16px/24px  'Helvetica Neue';
+    color: black;
+}
+.header__center__icons {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.header__center__input {
+    padding: 11px 48px;
+    border-radius: 50px;
+    background: #F5F5F5
+}
+a{
+    color: #111111;
 }
 .container{
     width: 1200px;
@@ -11,6 +90,7 @@
 .single .container{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 
 
 }
@@ -71,4 +151,16 @@
 }
 .nike__img__left img{
     width: 45%;
+}
+.size__btns{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.size__btn1{
+    padding: 10px 20px;
+    background-color: #9cc0ed;
+}
+.size__btn2{
+    padding: 10px 20px;
 }
