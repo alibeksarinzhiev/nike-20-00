@@ -8,7 +8,7 @@
       "category": "Men's Shoes",
       "gender": "Men",
       "color": "1 Colour",
-      "price": "MRP : ₹ 10 795.00"
+      "price": "10795"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "category": "Men's Shoes",
       "gender": "Men",
       "color": "1 Colour",
-      "price": "MRP : ₹ 4 995.00"
+      "price": "4995"
     },
     {
       "id": 3,
@@ -48,7 +48,7 @@
       "category": "Women's Shoes",
       "gender": "Women",
       "color": "1 Colour",
-      "price": "MRP : ₹ 11 895.00"
+      "price": "11 895.00"
     },
     {
       "id": 6,

@@ -151,9 +151,10 @@ a{
     gap: 20px;
 }
 .popup__basket.active{
-  /* overflow: scroll;
-  scroll-behavior: smooth;  */
-    position: absolute;
+   overflow: scroll;
+  scroll-behavior: smooth;
+    position: fixed;
+    height: 80vh;
     width: 700px;
     right: 20px;
     background: #e4e8ed;
@@ -171,4 +172,8 @@ a{
     flex-direction: column;
     margin-left: 100px;
     margin: 30px;
+}
+.material-symbols-outlined{
+    font-size: 38px!important;
+    color: red;
 }
